@@ -1,5 +1,6 @@
 # Home-Credit-Default
-Feature Engineering techniques for dealing Categorical variables.
+After preprocessing data , Applied Feature Engineering techniques like Target encoding,Entity embeded neural nets to deal with Categorical variables.Resulted data from these techniques was given as input to an ensemble of feature selection algoritoms like RFE and most important features are selected for model building.Neural net model was used for classification.Data set selected for this is Home credit default risk ,which was a kaggle competition dataset.This project is done using Python language.
+
 The main focus is to use best techniques to retain as much as information a categorical variable has,for this Target Encoding and Neural Net entity embedding techniques are used to process categarical variables.
 The dataset was obtained from a recent Kaggle competition. It was supplied by Home Credit, a financial institution that provides services to unbanked population, who has insufficient financial records for lenders to consider a loan. The dataset contains 7 tables with a total of 212 attributes and over 20 million records. Some characteristics of the dataset include: 
 1.	Highly imbalanced distribution of the target variables. The default class takes up about 10% of the overall data. 
